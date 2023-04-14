@@ -1,144 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatibl" content="IE-edge">
-        <meta name="viewport" content="width-device-width, inital-scale-1.0">
-        <title>My Portfolio Website </title>
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="style.css">
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    </head>
-    <body>
-        <!-- --header part-- -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirankumar Personal Portfolio Website</title>
+    <!-- Box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-        <header class="header">
-            <a href="#" class="logo">Portfolio</a>
-            <i class="bx bx-menu" id="menu-icon"></i>
-            <nav class="navbar">
-                <a href="#home" style="--i:1;" class='active'>Home</a>
-                <a href="#about" style="--i:2;">About</a>
-                <a href="#skills" style="--i:3;">Skills</a>
-                <a href="#portfolio" style="--i:4;">Portfolio</a>
-                <a href="#contact" style="--i:5;">Contact</a>
-            </nav>
-        </header>
+    <!-- Custom icons-->
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
 
-        <!-- --home section-- -->
+        <i class='bx bx-menu' id="menu-icon"></i>
 
-        <section class="home" id="home">
-            <div class="home-content">
-                <h3>Hello, It's Me</h3>
-                <h1>Kirankumar C M</h1>
-                <h3>And I'm a <span class="multiple-text">Full-Stack-web-Developer</span></h3>
-                <p>I'm From Chitradurga, Karnataka, curently purceving full-stack web development course form TapAcademy.
-                     and looking for job in good envirament. Download my Resume for details.
-                </p>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, it's Me</h3>
+            <h1>Kirankumar C M</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Looking for job in Software development field.
+                Persued Fullstack Java development professional trainig from TNS India Foundation. </p>
                 <div class="social-media">
-                    <a href="https://www.facebook.com/kirancm.kumarcm" style="--i:6;"><i class='bx bxl-facebook'></i></a>
-                    <a href="https://wa.me/qr/Z6EMJL63FXJVN1" style="--i:7;"><i class='bx bxl-whatsapp'></i></a>
-                    <a href="https://www.instagram.com/kirancmkumarcm/" style="--i:8;"><i class='bx bxl-instagram'></i></a>
-                    <a href="https://www.linkedin.com/in/kirankumar-c-m-73501a222/" style="--i:9;"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.linkedin.com/in/kirankumar-c-m-73501a222/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/7619646971" target="_blank"><i class='bx bxl-github' ></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://wa.me/7619646971" target="_blank"><i class='bx bxl-whatsapp-square' ></i></a>
                 </div>
-                <a href="img/resume.pdf" class="btn">Download CV</a>
+                <a href="img/resume.pdf" target="_blank" class="btn">Download Resume</a>
+        </div> 
+        <div class="home-img">
+        <img src="img/home.jpg" alt="">
+    </div>
+      </section>
+
+
+    <!-- About Section Design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/home1.png" alt="">
+        </div>
+<div class="about-content">
+    <h2 class="heading">About <span>Me</span></h2>
+    <h3>Fullstack Developer</h3>
+    <p> I'm Kirankumar C M Aspiring Candidate to work as a Developer. I have one month of internship experience at Technotharanga Solutions Pvt Ltd. 
+        I have skills in Web development like java, DSA, Backend,Database and Frontend technologies. Currently learning Data structures & Algorithms From Gammaprep. </p>
+        <a href="https://www.linkedin.com/in/kirankumar-c-m-73501a222/" target="_blank" class="btn">Read More</a>
+</div>
+
+    </section>
+
+    <!-- Services Section design -->
+
+    <section class="services" id="services">
+    <h2 class="heading">Our <Span>Services</Span></h2>
+    <div class="services-container">
+        <div class="services-box">
+            <i class='bx bx-code-alt' ></i>
+            <h3>Web Development</h3>
+            <p>I offer custom website design and development, including responsive design and optimization. 
+                I strive to create user-friendly and visually appealing websites that meet clients' needs.</p>
+                <a href="#portfolio"class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-code-alt' ></i>
+            <h3>App Development</h3>
+            <p>I offer custom app development services for Android app, including design, integration, and optimization. 
+                I aim to create innovative and user-friendly apps that enhance users' experiences.</p>
+                <a href="#portfolio"class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+            <i class='bx bxs-paint' ></i>          
+              <h3>Graphic Designing</h3>
+            <p>I offer custom graphic designs, including responsive design, user engagement and optimization. 
+                I strive to create user-friendly and visually appealing Designs that meet clients' needs.</p>
+                <a href="#"class="btn">Read More</a>
+        </div>
+    </div>
+</section>
+    <!-- Portfolio sectyion design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/ATM.jpg"  alt="">
+                <div class="portfolio-layer">
+                    <h4>ATM Software on OOPS</h4>
+                    <p>ATM Software by JAVA OOPS consept.</p>
+                         <a href="https://github.com/7619646971/Atm1ez3" target = "_blank"><i class='bx bx-link-external'></i></a>
+                </div>
             </div>
-            <div class="home-img">
-                <img src="img/home.jpg">
-            </div>            
-        </section>
 
-        <section class="about" id="about">
-            <div class="about-img">
-                <img src="img/home1.png" alt="My image">
-            </div>
-            <div class="about-content">
-                <h2 class="heading">About <span>Me</span></h2>
-                <h3>Full-Stack Developer</h3>
-                <p>i am BE Mechanical graguatre form Jain instituet of Technology Davanagere,Karnataka.
-                    and purciving Full-Stack Web Development course on Java Language.
-                </p>
-                <a href="#" class="btn" >Read More</a>
-            </div>
-        </section>
-
-        <section class="skills" id="skills">
-            <h2 class="heading">My <span>Skills</span></h2>
-
-            <div class="skills-container">
-                <div class="skills-box">
-                    <i class="bx bxl-java"></i>
-                    <h3>Java</h3>
-                    <p>Java Fundamentals,OOPs Concepts,
-                        Overloading & Overriding,
-                        Inheritance with Interface and Abstract Class,
-                        Exception Handling,
-                        Packages,
-                        Collections,
-                        Multithreading,
-                        Swings,
-                        Applets,
-                        JDBC (Basic Database Connections)</p>
-                    <a href="#" class="btn">Read More</a>
-                </div>
-
-                <div class="skills-box">
-                    <i class="bx bxs-data"></i>
-                    <h3>MySQL</h3>
-                    <p>DDL(Data Defination Language),DML(Data Maupulating Language),DTCL(DAta Transaction Control Language),DCL(Data Control Language),DQL(Data Query/Retivel Language)  </p>
-                    <a href="#" class="btn">Read More</a>
-                </div>
-
-                <div class="skills-box">
-                    <i class="bx bxl-html5"></i>
-                    <h3>HTML,CSS and JavaScript</h3>
-                    <p>Understand the fundamentals of HTML, CSS, and JavaScript and how they work together to create web pages and web-based applications.
-                        Learned how to structure and format web content using HTML and CSS.
-                        Build and maintain modern websites and web-based applications using HTML, CSS, and JavaScript.</p>
-                    <a href="#" class="btn">Read More</a>
+            <div class="portfolio-box">
+                <img src="img/JavaP.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Tempertaure-Converter</h4>
+                    <p>baced on JAVA consept</p>
+                         <a href="https://github.com/7619646971/Tempertaure-Converter" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
-        </section>
 
-        <section class="portfolio" id="portfolio">
-            <h2 class="heading">Latest <span>Project</span></h2>
-
-            <div class="portfolio-container">
-                <div class="portfolio-box">
-                    <img src="img/portpolio.png" alt="">
-                    <div class="portfolio-layer">
-                        <h4>Portfolio website</h4>
-                        <p>baced on HTML CSS JavaScript cansept</p>
-                        <a href="#"></a> 
-                    </div>
+            <div class="portfolio-box">
+                <img src="img/SocAp.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Social App</h4>
+                    <p>Currently Working on to Develop a Social media website using Html, Css, javaScript, Nodejs, Mangodb,Oracle.</p>
+                         <a href="#portfolio"><i class='bx bx-link-external'></i></a>
                 </div>
-
-                <div class="portfolio-box">
-                    <img src="img/student.png" alt="">
-                    <div class="portfolio-layer">
-                        <h4>Student Registration Portel</h4>
-                        <p>The Student Management System In Javascript was developed using JavaScript, CSS and HTML, In this Javascript Project With Source Code is a fascinating undertaking. Only the administrative part of the project is included. The goal of the project is to compile a list of all of the students’ records. The management system for this project employs CRUD.</p>
-                        <a href="#"></a> 
-                    </div>
-                </div>
-
-                <div class="portfolio-box">
-                    <img src="img/ATM.jpg" alt="">  
-                    <div class="portfolio-layer">
-                        <h4>ATM OOPS</h4>
-                        <p>baced on oops cansept of the java</p>
-                        <!-- inset the icone boxcone website -->
-                        <a href="#"></a> 
-                    </div>
-                </div>
-                
             </div>
-        </section>
 
-        <section class="contact" id="contact">
-            <h2 class="heading">Contact <span>Me!</span></h2>
+            <div class="portfolio-box">
+                <img src="img/Ml.webp" alt="">
+                <div class="portfolio-layer">
+                    <h4>Machine Learning Project</h4>
+                    <p>Loading.......</p>
+                         <a href="#portfolio"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
 
-            <form action="#" class="" id="">
+            <div class="portfolio-box">
+                <img src="img/Ipl.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>IPL Dashboard</h4>
+                    <p>Loading...........</p>
+                         <a href="#portfolio"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
 
+        </div>
+
+    </section>
+
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+            <form action="#contact">
                 <div class="input-box">
                     <input type="text" placeholder="Full Name">
                     <input type="email" placeholder="Email Address">
@@ -150,21 +160,31 @@
                 <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
                 <input type="submit" value="Send Message" class="btn">
             </form>
-        </section>
-
-            <footer class="footer">
-                <div class="footer-text"><p>Kirankumar C M @ kirankumarcm7619@gmail.com</p></div>
-                <div class="footer-iconTop">
-                    <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
-                </div>
-            </footer>
-
-        <!-- --scroll reveal-- -->
-        <script src="https://unpkg.com/scrollreveal"></script>
         
-        <!-- --typed js for typing-- -->
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <div class="contact-info">
+           <h2>C No: 7619646971  </h2> 
+           <h2>Gmail: kirankumarcm7619@gmail.com</h2>
+        </div>
 
-        <script src="js/script.js"></script>
-    </body>
-</html>
+    </section>
+
+    <!-- Footer Design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>copyright © Kirankumar C M. Made as Personal Portfolio.<pre><p>Thanks for visiting my website</p></pre></p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed Js -->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+      <!-- Custom Js -->
+      <script src="Script.js"></script>
+</body>
+</html> 
+
